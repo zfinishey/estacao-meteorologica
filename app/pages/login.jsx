@@ -8,7 +8,7 @@ import {
   Image,
 } from "react-native";
 
-import Img from "../../assets/img.jpg";
+import Img from "../../assets/estação.jpg";
 
 
 export default function Login({ navigation }) {
@@ -43,7 +43,7 @@ export default function Login({ navigation }) {
         <TextInput
           style={estilos.input}
           placeholder="E-mail"
-          placeholderTextColor="#8fa3b8"
+          placeholderTextColor="#ffffff"
           value={usuario}
           onChangeText={setUsuario}
         />
@@ -52,7 +52,7 @@ export default function Login({ navigation }) {
         <TextInput
           style={estilos.input}
           placeholder="Senha"
-          placeholderTextColor="#8fa3b8"
+          placeholderTextColor="#ffffff"
           secureTextEntry
           value={senha}
           onChangeText={setSenha}
@@ -94,7 +94,7 @@ const estilos = StyleSheet.create({
 
 container:{
   flex:1,
-  backgroundColor:"#07111f",
+  backgroundColor:"#000000",
   justifyContent:"center",
   alignItems:"center",
   padding:20
@@ -103,11 +103,11 @@ container:{
 
 card:{
   width:"100%",
-  backgroundColor:"#0d1b2a",
+  backgroundColor:"#272829",
   borderRadius:25,
   padding:30,
 
-  shadowColor:"#00eaff",
+  shadowColor:"#d3d5d5",
   shadowOpacity:0.4,
   shadowRadius:15,
   elevation:10
@@ -122,7 +122,7 @@ logo:{
   marginBottom:20,
 
   borderWidth:3,
-  borderColor:"#00c6ff"
+  borderColor:"#ffffff"
 },
 
 
@@ -142,7 +142,7 @@ subtitulo:{
 
 
 input:{
-  backgroundColor:"#16283d",
+  backgroundColor:"#838587",
   height:55,
   borderRadius:15,
   paddingHorizontal:18,
@@ -150,12 +150,12 @@ input:{
   marginBottom:15,
 
   borderWidth:1,
-  borderColor:"#24445f"
+  borderColor:"#444545"
 },
 
 
 botao:{
-  backgroundColor:"#00c6ff",
+  backgroundColor:"#6d6d6d",
   height:55,
   borderRadius:15,
 
@@ -166,14 +166,14 @@ botao:{
 
 
 botaoTexto:{
-  color:"#001018",
+  color:"#ffffff",
   fontSize:18,
   fontWeight:"bold"
 },
 
 
 criar:{
-  color:"#00c6ff",
+  color:"#7a7b7b",
   textAlign:"center",
   marginTop:25
 }

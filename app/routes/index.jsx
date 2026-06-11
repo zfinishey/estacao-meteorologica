@@ -51,7 +51,7 @@ export default function Rotas() {
         <Stack.Navigator>
             <Stack.Screen name='Login' component={Login} options={{ headerShown: false }} />
             <Stack.Screen name='Inicio' component={MenuSuperior} options={{ headerShown: false , title: ''}} />
-            <Stack.Screen name='Registro' component={Registro} options={{ title: 'Registro de usuário' }} />
+            <Stack.Screen name='Registro' component={Registro} options={{ headerShown: false, title: '' }} />
         </Stack.Navigator>
     )
 }
