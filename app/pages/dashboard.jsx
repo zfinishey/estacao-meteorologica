@@ -69,7 +69,7 @@ export default function DashBoard() {
     <ScrollView style={styles.container}>
 
       <Text style={styles.titulo}>
-        Dashboard Meteorológica
+        Clima em Tempo Real
       </Text>
 
 
